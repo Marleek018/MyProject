@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Rage Italic;
+  src: url(./Rage\ Italic.ttf);
+}
+@font-face {
+  font-family: Recoleta;
+  src: url(./RecoletaAlt-Black.ttf);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f6ff;
+}
+nav h3 {
+  font-family: Rage Italic;
+  font-weight: 400;
+  font-size: 30px;
+  padding-top: 28px;
+  padding-bottom: 34px;
+}
+nav a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+.Heading {
+  padding-top: 35px;
+  display: flex;
+  gap: 50px;
+  
+}
+nav span a{
+  font-weight: 500;
+  color: #F20A0A;
+
+}
+nav span a:hover{
+ color: #0E8104;
+
+}
+nav a:hover {
+  text-decoration: underline 6px solid #f20a0a;
+  font-weight: 500;
+}
+.firstline h3 {
+  font-family: Recoleta;
+  font-weight: 700;
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+.firstline p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+.firstline button{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 30px;
+    color: #F20A0A;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+}
+.firstline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    padding-top: 258px;
+    padding-bottom: 268px;
+    padding-left: 260px;
+    padding-right: 242px;
+  }
+  .firstline span{
+    color: #F20A0A;
+  }
+  .secondline h4{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .secondline p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .secondline button{
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    padding: 9px;
+    margin-top: 12px;
+  }
+  .box1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box1text{
+    margin-top: 164px;
+  }
+  .box1img{
+    margin-top: 127px;
+  }
+  .Img11{
+    margin-top: 139px;
+    margin-bottom: 67px;
+  }
+  .Imgtext{
+    margin-top: 153px;
+  }
+  .faintline{
+    background-color: #0D0D0D;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 36px;
+   padding-bottom: 36px;
+    text-align: center;
+  }
+  .Thirdline .dip{
+    display: grid;
+    gap: 80px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px 270px;
+
+  }
+  .Thirdline p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 11px;
+  }
+  .Thirdline span a{
+    color: #F20A0A;
+    padding-left: 11px;
+    text-decoration: none;
+  }
+  footer h3{
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  footer p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .Connect a{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    color: #FFFFFF;
+    padding-bottom: 7px;
+   
+  }
+
+  footer .contact a{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    color: #FFFFFF;
+    padding-bottom: 4px;
+  }
+  footer h6{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222222;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 34px;
+
+  }
+
