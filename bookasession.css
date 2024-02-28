@@ -86,6 +86,7 @@ nav a:hover {
 }
 .form {
   border: 1px solid #f9fafc;
+  box-shadow: 1px 1px 1px white;
   background-color: #ffffff;
   border-radius: 30px;
   margin-left: 100px;
@@ -95,81 +96,653 @@ nav a:hover {
   margin-top: 110px;
   margin-left: 147px;
 }
-.fillout button{
+.fillout button {
   width: 239px;
   height: 70px;
   border-radius: 15px;
-  background-color: #F20A0A;
-  color: #FFFFFF;
+  background-color: #f20a0a;
+  color: #ffffff;
   font-family: Roboto;
   font-weight: 700;
   font-size: 25px;
   border: none;
   margin-left: 40px;
 }
-.fillout h3{
-  font-family:Rage Italic ;
+.fillout h3 {
+  font-family: Rage Italic;
   font-weight: 400;
   font-size: 50px;
 }
-.fillout p{ font-family: Roboto;
+.fillout p {
+  font-family: Roboto;
   font-weight: 400;
   font-size: 26px;
 }
-.last{
-  background-color:  hsla(0, 0%, 13%, 0.8);
+.last {
+  background-color: hsla(0, 0%, 13%, 0.8);
   position: absolute;
   bottom: -632px;
-  width:49%;
+  width: 49%;
   padding-top: 31px;
   padding-bottom: 31px;
   text-align: center;
-  color: #FFFFFF;
-  
+  color: #ffffff;
 }
-footer h3{
+footer h3 {
   font-family: Rage Italic;
   font-weight: 400;
   font-size: 30px;
 }
-footer p{
+footer p {
   font-family: Roboto;
   font-weight: 300;
   font-size: 14px;
   padding-top: 20px;
 }
-.Connect a{
+.Connect a {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 7px;
- 
 }
 
-footer .contact a{
+footer .contact a {
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   text-decoration: none;
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 4px;
 }
-footer h6{
+footer h6 {
   font-family: Roboto;
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 5px;
 }
-footer{
+footer {
   display: flex;
   justify-content: space-evenly;
   background-color: #222222;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 25px;
   padding-bottom: 34px;
+}
+@media screen and (max-width: 1440px) {
+  .last {
+    position: absolute;
+    bottom: -286px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .last {
+    position: absolute;
+    bottom: -468px;
+    width: 45.5%;
+  }
+  .fillout h3 {
+    font-size: 40px;
+  }
+  .fillout p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f6ff;
+  }
+  nav h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 34px;
+  }
+  nav a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .Heading {
+    padding-top: 25px;
+    display: flex;
+    gap: 50px;
+  }
+  nav span a {
+    font-weight: 500;
+    color: #f20a0a;
+  }
+  nav span a:hover {
+    color: #0e8104;
+  }
+  nav a:hover {
+    text-decoration: underline 6px solid #f20a0a;
+    font-weight: 500;
+  }
+  .Book {
+    background-image: url(./Images/image\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .Book h4 {
+    text-align: center;
+    padding-top: 176px;
+    margin-top: 48px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 52px;
+    padding-bottom: 200px;
+  }
+  .fillout label {
+    display: block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 6px;
+  }
+  .fillout input {
+    width: 250px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .fillout img {
+    width: 100%;
+    height: 95%;
+    position: relative;
+  }
+  .fillout {
+    font-family: Roboto;
+    font-weight: 400;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+  }
+  .form {
+    border: 1px solid #f9fafc;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .fillout h5 {
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .fillout button {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #f20a0a;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .fillout h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .fillout p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .last {
+    background-color: hsla(0, 0%, 13%, 0.8);
+    position: absolute;
+    bottom: -510px;
+    width: 56.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 426px) {
+  nav {
+    display: block;
+    justify-content: space-between;
+    background-color: #f1f6ff;
+  }
+  nav h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 34px;
+  }
+  nav a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .Heading {
+    padding-top: 25px;
+    display: flex;
+    gap: 10px;
+  }
+  nav span a {
+    font-weight: 500;
+    color: #f20a0a;
+  }
+  nav span a:hover {
+    color: #0e8104;
+  }
+  nav a:hover {
+    text-decoration: underline 6px solid #f20a0a;
+    font-weight: 500;
+  }
+  .Book {
+    background-image: url(./Images/image\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .Book h4 {
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 24px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 60px;
+  }
+  .fillout label {
+    display: block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 6px;
+  }
+  .fillout input {
+    width: 250px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .fillout img {
+    width: 100%;
+    height: 40%;
+    position: relative;
+  }
+  .fillout {
+    font-family: Roboto;
+    display: block;
+  }
+  .form {
+    border: 1px solid #f9fafc;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 5px;
+  }
+  .fillout h5 {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .fillout button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #f20a0a;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .fillout h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .fillout p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .last {
+    background-color: hsla(0, 0%, 13%, 0.8);
+    position: absolute;
+    bottom: -770px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #ffffff;
+  }
+  footer h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  footer p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 10px;
+    padding-top: 12px;
+  }
+  .Connect a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding-bottom: 5px;
+  }
+
+  footer .contact a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding-bottom: 4px;
+  }
+  footer h6 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222222;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 376px) {
+  nav {
+    display: block;
+    justify-content: space-between;
+    background-color: #f1f6ff;
+  }
+  nav h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 34px;
+  }
+  nav a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .Heading {
+    padding-top: 25px;
+    display: flex;
+    gap: 12px;
+  }
+  nav span a {
+    font-weight: 500;
+    color: #f20a0a;
+  }
+  nav span a:hover {
+    color: #0e8104;
+  }
+  nav a:hover {
+    text-decoration: underline 6px solid #f20a0a;
+    font-weight: 500;
+  }
+  .Book {
+    background-image: url(./Images/image\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .Book h4 {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 24px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .fillout label {
+    display: block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 6px;
+  }
+  .fillout input {
+    width: 250px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .fillout img {
+    width: 100%;
+    height: 40%;
+    position: relative;
+  }
+  .fillout {
+    font-family: Roboto;
+    display: block;
+  }
+  .form {
+    border: 1px solid #f9fafc;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 5px;
+  }
+  .fillout h5 {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .fillout button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #f20a0a;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .fillout h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .fillout p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .last {
+    background-color: hsla(0, 0%, 13%, 0.8);
+    position: absolute;
+    bottom: -679px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #ffffff;
+  }
+  footer h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  footer p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 10px;
+    padding-top: 12px;
+  }
+  .Connect a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding-bottom: 5px;
+  }
+
+  footer .contact a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding-bottom: 4px;
+  }
+  footer h6 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222222;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width:320px){
+  nav {
+    display: block;
+    justify-content: space-between;
+    background-color: #f1f6ff;
+  }
+  nav h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  nav a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .Heading {
+    padding-top: 20px;
+    display: flex;
+    gap: 12px;
+  }
+  nav span a {
+    font-weight: 500;
+    color: #f20a0a;
+  }
+  .Book h4 {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 24px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+  .fillout h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .fillout p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .last {
+    background-color: hsla(0, 0%, 13%, 0.8);
+    position: absolute;
+    bottom: -548px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #ffffff;
+  }
+  footer h3 {
+    font-family: Rage Italic;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  footer p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 8px;
+    padding-top: 12px;
+  }
+  .Connect a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding-bottom: 5px;
+  }
+
+  footer .contact a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    padding-bottom: 4px;
+  }
+  footer h6 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222222;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
 
 }
