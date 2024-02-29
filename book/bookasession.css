@@ -43,7 +43,7 @@ nav a:hover {
   font-weight: 500;
 }
 .Book {
-  background-image: url(./Images/image\ 17.png);
+  background-image: url(../Images/image\ 17.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -640,7 +640,7 @@ footer {
     padding-bottom: 20px;
   }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width: 320px) {
   nav {
     display: block;
     justify-content: space-between;
@@ -744,5 +744,4 @@ footer {
     padding-top: 15px;
     padding-bottom: 20px;
   }
-
 }
