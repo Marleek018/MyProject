@@ -16,6 +16,7 @@ nav {
   justify-content: space-around;
   background-color: #f1f6ff;
 }
+
 nav h3 {
   font-family: Rage Italic;
   font-weight: 400;
@@ -45,6 +46,17 @@ nav span a:hover {
 nav a:hover {
   text-decoration: underline 6px solid #f20a0a;
   font-weight: 500;
+}
+.top {
+  background-color: #f20a0a;
+}
+.bar {
+  border-top: 5px solid black;
+  width: 27px;
+  margin: 5px 0;
+}
+.hamburger{
+  display: none;
 }
 .firstline h3 {
   font-family: Recoleta;
@@ -196,6 +208,24 @@ footer {
   padding-bottom: 34px;
 }
 @media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f6ff;
+  }
+  .Heading{
+    display: none;
+  }
+  .bar {
+    border-top: 5px solid black;
+    width: 27px;
+    margin: 5px 0;
+  }
+  .hamburger{
+    display: block;
+    padding-top: 28px;
+  }
+
   .Thirdline .dip {
     display: grid;
     gap: 60px;
@@ -480,28 +510,23 @@ footer {
   }
 }
 @media screen and (max-width: 376px) {
+
   nav {
-    display: block;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-around;
     background-color: #f1f6ff;
   }
-  nav h3 {
-    font-family: Rage Italic;
-    font-weight: 400;
-    font-size: 24px;
+  .Heading{
+    display: none;
+  }
+  .bar {
+    border-top: 5px solid black;
+    width: 27px;
+    margin: 5px 0;
+  }
+  .hamburger{
+    display: block;
     padding-top: 28px;
-    padding-bottom: 20px;
-  }
-  nav a {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 14px;
-    color: #000000;
-  }
-  .Heading {
-    padding-top: 35px;
-    display: flex;
-    gap: 15px;
   }
   .firstline {
     display: block;
@@ -649,13 +674,22 @@ footer {
   }
 }
 @media screen and (max-width: 320px) {
-  nav a {
-
-    font-size: 12px;
-  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f6ff;
   }
-  nav h3 {
-    font-size: 30px;
+  .Heading{
+    display: none;
+  }
+  .bar {
+    border-top: 5px solid black;
+    width: 27px;
+    margin: 5px 0;
+  }
+  .hamburger{
+    display: block;
+    padding-top: 28px;
   }
   .firstline {
     display: block;
@@ -721,29 +755,21 @@ footer {
 }
 @media screen and (max-width: 431px) {
   nav {
-    display: block;
-    justify-content: space-evenly;
-    background-color: #f1f6ff;
-    
-  }
-  nav h3 {
-    font-family: Rage Italic;
-    font-weight: 400;
-    font-size: 40px;
-    padding-top: 28px;
-    padding-bottom: 0px;
-    text-align: center;
-  }
-  nav a {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    color: #000000;
-  }
-  .Heading {
-    padding: 35px 0px 0px 15px;
     display: flex;
-    gap: 15px;
+    justify-content: space-around;
+    background-color: #f1f6ff;
+  }
+  .Heading{
+    display: none;
+  }
+  .bar {
+    border-top: 5px solid black;
+    width: 27px;
+    margin: 5px 0;
+  }
+  .hamburger{
+    display: block;
+    padding-top: 28px;
   }
   .firstline {
     display: block;
